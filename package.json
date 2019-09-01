@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/jackbridger/Basic-app-/issues"
   },
-  "homepage": "https://github.com/jackbridger/Basic-app-#readme"
+  "homepage": "https://github.com/jackbridger/Basic-app-#readme",
+  "dependencies": {
+    "env2": "^2.2.2",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  }
 }
