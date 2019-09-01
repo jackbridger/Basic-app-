@@ -1,5 +1,5 @@
 const express = require("express");
-
+const controllers = require("./controllers");
 const path = require("path");
 
 const exphbs = require("express-handlebars");
@@ -16,8 +16,7 @@ app.engine(
     extname: "hbs",
     layoutsDir: path.join(__dirname, "views", "layouts"),
     partialsDir: path.join(__dirname, "views", "partials"),
-    defaultLayout: "main",
-    helpers
+    defaultLayout: "main"
   })
 );
 app.use(express.static(path.join(__dirname, "..", "public")));
